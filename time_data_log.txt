@@ -1,0 +1,88 @@
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/flowers.ppm
+Width and height:    180 x 101
+Number of pixels:    18180
+Size of file:        0
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            row major
+Transformation used: 90-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      1317984.000000 nanoseconds
+Time per pixel:      739535.466667 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/flowers.ppm
+Width and height:    180 x 101
+Number of pixels:    18180
+Size of file:        0
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            row major
+Transformation used: 90-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      1353075.000000 nanoseconds
+Time per pixel:      759225.416667 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/flowers.ppm
+Width and height:    180 x 101
+Number of pixels:    18180
+Size of file:        0
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            row major
+Transformation used: 90-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      1310386.000000 nanoseconds
+Time per pixel:      735272.144444 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/flowers.ppm
+Width and height:    180 x 101
+Number of pixels:    18180
+Size of file:        0
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            row major
+Transformation used: 90-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      1340292.000000 nanoseconds
+Time per pixel:      752052.733333 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------

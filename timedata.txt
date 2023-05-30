@@ -1,0 +1,588 @@
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            row major
+Transformation used: 0-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      0.000000 nanoseconds
+Time per pixel:      0.000000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            row major
+Transformation used: 0-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      0.000000 nanoseconds
+Time per pixel:      0.000000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            row major
+Transformation used: 0-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      0.000000 nanoseconds
+Time per pixel:      0.000000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            col major
+Transformation used: 0-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      0.000000 nanoseconds
+Time per pixel:      0.000000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            col major
+Transformation used: 0-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      0.000000 nanoseconds
+Time per pixel:      0.000000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            col major
+Transformation used: 0-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      0.000000 nanoseconds
+Time per pixel:      0.000000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2b
+Map used:            block major
+Transformation used: 0-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      0.000000 nanoseconds
+Time per pixel:      0.000000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2b
+Map used:            block major
+Transformation used: 0-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      0.000000 nanoseconds
+Time per pixel:      0.000000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2b
+Map used:            block major
+Transformation used: 0-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      0.000000 nanoseconds
+Time per pixel:      0.000000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            row major
+Transformation used: 90-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      6624375028.000000 nanoseconds
+Time per pixel:      4968281271.000000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            row major
+Transformation used: 90-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      6592940691.000000 nanoseconds
+Time per pixel:      4944705518.250000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            row major
+Transformation used: 90-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      6701823329.000000 nanoseconds
+Time per pixel:      5026367496.750000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            col major
+Transformation used: 90-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      6367802958.000000 nanoseconds
+Time per pixel:      4775852218.500000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            col major
+Transformation used: 90-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      6352565529.000000 nanoseconds
+Time per pixel:      4764424146.750000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            col major
+Transformation used: 90-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      6498738425.000000 nanoseconds
+Time per pixel:      4874053818.750000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2b
+Map used:            block major
+Transformation used: 90-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      6481205579.000000 nanoseconds
+Time per pixel:      4860904184.250000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2b
+Map used:            block major
+Transformation used: 90-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      6473034853.000000 nanoseconds
+Time per pixel:      4854776139.750000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2b
+Map used:            block major
+Transformation used: 90-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      6777382661.000000 nanoseconds
+Time per pixel:      5083036995.750000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            row major
+Transformation used: 180-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      5222551965.000000 nanoseconds
+Time per pixel:      3916913973.750000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            row major
+Transformation used: 180-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      5213685986.000000 nanoseconds
+Time per pixel:      3910264489.500000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            row major
+Transformation used: 180-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      5211558322.000000 nanoseconds
+Time per pixel:      3908668741.500000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            col major
+Transformation used: 180-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      8970734997.000000 nanoseconds
+Time per pixel:      6728051247.749999 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            col major
+Transformation used: 180-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      9276882954.000000 nanoseconds
+Time per pixel:      6957662215.500000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2
+Map used:            col major
+Transformation used: 180-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      9341820630.000000 nanoseconds
+Time per pixel:      7006365472.500001 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2b
+Map used:            block major
+Transformation used: 180-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      6884177840.000000 nanoseconds
+Time per pixel:      5163133380.000000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2b
+Map used:            block major
+Transformation used: 180-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      6868638283.000000 nanoseconds
+Time per pixel:      5151478712.250000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------ MacBookPro 2022 M2 ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2b
+Map used:            block major
+Transformation used: 180-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      6877250771.000000 nanoseconds
+Time per pixel:      5157938078.250000 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------
+
+/*************************** TIME REPORT ***************************/
+------ All tests were performed in jquint04's virtual machine ------
+------------------------- Linux Lab Machine ------------------------
+
+----------------------------Image details---------------------------
+Image's name:        images/mobo.ppm
+Width and height:    8160 x 6120
+Number of pixels:    49939200
+
+------------------------Transformation details----------------------
+Method used:         UArray2b
+Map used:            block major
+Transformation used: 180-degree rotation
+
+----------------------------Time details----------------------------
+TOTAL CPU TIME:      5254035401.000000 nanoseconds
+Time per pixel:      105.208642 nanoseconds
+
+/*******************************************************************/
+--------------------------------------------------------------------

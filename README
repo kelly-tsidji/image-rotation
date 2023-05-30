@@ -1,0 +1,147 @@
+Authors: Kelly Tsidji (atsidj01)
+         Joao Quintanilha (jquint04)
+
+
+Acknowledgements:
+- CS40 TAs
+- CS40 Lectures
+
+
+What has been correctly implemented:
+- ppm.trans.c
+- uarray2b.c
+- a2plain.c
+
+
+What hasn't been correctly implemented:
+- All the programs were properly implemented
+- Note: in our documentations, the timedata.txt file is storing
+the wrong ouput for the calculations to the Pixels per Nanosecond.
+This was fixed in the code and right now the calculation is 
+working, however, timedata.txt still holds these wrong values.
+
+
+Architecture of our solutions:
+- UArray2: The 2d-array is represented by a big UArray that holds 
+pointers to each row of the the 2d-array, represented as small UArrays
+- UArray2b: The 2d-array is represented by a big 2DArray (UArray2) that 
+holds all the blocks of memory necessary to hold an image. Each block
+of memory is treated as an UArray that will contiguously store all
+data in the specified area.
+- ppmtrans: To perform the 90-deg, 180-deg, and 270-deg rotations, a new
+  Pnm_ppm image is created that holds the dimensions of the rotated image;
+  then the program iterates through the original Pnm_ppm image, and copies
+  each of its pixels into the appropriate location in the rotated image.
+  The Pnm_ppm that stores the rotated image is then printed to output
+  by the program. To perform the 0-deg rotation, the original image,
+  which is stored in a Pnm_ppm is simply printed to output.
+
+
+Hours spent on assignment: 70 hrs
+
+
+Part E Discussion:
+Tests were performed on one image.
+__________________________________________________________________
+| image               | mobo.ppm                                  |
+| image size          | 150MB                                     |
+| image dimensions    | 8160 x 6120                               |
+| # of pixels in img  | 49939200                                  |
+| computer model      | 165                                       |
+| computer model name | Intel(R) Core(TM) i7-10700T CPU @ 2.00GHz |
+| cpu family          | 6                                         |
+| cpu MHz             | 2000.000                                  |
+|_____________________|___________________________________________|
+
+rot = rotation
+CPU = total CPU time
+instructions = instructions per pixel
+__________________________________________________________________________
+| method   | map   | rot deg| CPU        | time per pixel | instructions |
+|----------|-------|--------|------------|----------------|--------------|
+| UArray2  | row   | 0      | 0          | 0              | 0            |
+| UArray2  | col   | 0      | 0          | 0              | 0            |
+| UArray2b | block | 0      | 0          | 0              | 0            |
+| UArray2  | row   | 90     | 6624375028 | 132.6488015    | 132.6488015  |
+| UArray2  | col   | 90     | 6367802958 | 127.5111127    | 127.5111127  |
+| UArray2b | block | 90     | 6481205579 | 129.7819264    | 129.7819264  |
+| UArray2  | row   | 180    | 5213685986 | 104.4006709    | 104.4006709  |
+| UArray2  | col   | 180    | 9276882954 | 185.7635476    | 185.7635476  |
+| UArray2b | block | 180    | 6877250771 | 137.7124738    | 137.7124738  |
+|__________|_______|________|____________|________________|______________|
+Optional graphs can be found at: https://docs.google.com/spreadsheets/d/
+1VPimMRv1b5jVAaO0U8yj_S42ceeKAEWuCYQNApKh3FA/edit?usp=sharing
+
+  opposite (slow to read and fast to write), their individual CPU times end 
+- For the zero degree command, no transformation was performed in the image 
+  so no CPU time was counted.
+
+90-deg:
+- For the 90 degrees command, the image is transformed such that entirely 
+  contiguous portions of memory treated as rows will become a column in 
+  the 2d-array. Therefore, even though it is easy accessing entire portions 
+  of memory in this command, it will be challenging to write each one of 
+  these elements on the columns.
+- In general, row-mapping order presents a balanced performance between 
+  reading and writing in this command. The rows are easily accessed and 
+  stored in the cache, but to write them, the row will struggle to navigate 
+  through each column location, considering that the locations are not close 
+  to each other.
+- is slow to read from the original 2d-array because the contiguous chunks 
+  of memory are stored in rows in our data structure, so every time we need 
+  to get the next element in the col-order, we will have misses and need to 
+  apply the policy of replacement in the cache. On the other hand, the 
+  writing is faster on col major because the elements retrieved from the 
+  row will be entirely transposed to a column, therefore they will face not 
+  as many cache misses to be placed in their updated location.
+- Because row-major is fast to read and slow to write, and col-major is the 
+  opposite (slow to read and fast to write), their individual CPU times end 
+  up being about the same.
+- The block-mapping order is dependent on the blocksize. Assuming the 
+  appropriate blocksize is chosen, the block-mapping order should have a CPU 
+  time that is in-between col-major and row-major maps. Because the CPU 
+  times of col-major and row-major maps are about the same, it makes that 
+  the block-major mapping would also have about the same CPU time.
+- In sum, row-, col-, and block-maps all have about the same CPU time for 
+  the 90-deg rotation.
+
+180-deg:
+- For the 180 rotation, rows in the original array correspond to rows in the 
+  rotated array. So, pixels that are stored in the same row (and therefore 
+  contiguous in memory) in the original array will also be stored in the 
+  same row of the rotated array (remain contiguous in memory).
+- Because pixels in a row are contiguous in memory in both the original and 
+  rotated arrays, row-mapping is FAST to read the pixels in the original array
+  and FAST to write the pixels to the rotated array (since reading in a 
+  row-major order corresponds to writing in a row-major order).
+- Because pixels in a row are contiguous in memory in both the original and 
+  rotated arrays, column-mapping is SLOW to read the pixels in the original 
+  array and SLOW to write the pixels to the rotated array; this makes sense 
+  because column-major order has to access a new row in the memory everytime 
+  a pixel is read from the original array and everytime a pixel is written 
+  to the rotated array, resulting in a very low hit-rate, and therefore a 
+  very high CPU time.
+- Block-mapping’s hit rate depends on the blocksize. Assuming the 
+  appropriate blocksize is selected when the 2d block array is created, 
+  block-mapping’s CPU time should be somewhere in-between the CPU times for 
+  col-mapping (which is very slow) and row-mapping (which is very fast). In 
+  our results, block-mapping is roughly half-way through col- and 
+  row-mappings, which supports this assumption.
+
+90-deg vs 180-deg:
+- In row-major mapping for the 90-deg rotation, it is fast to access memory 
+  for reading pixels, and slow to access memory for writing pixels, whereas in
+  the row-major mapping for the 180-deg rotation, it is both fast to read and 
+  write pixels. Therefore, 180-deg row-major has better spatial locality than 
+  90-deg row-major, making the CPU time for 180-deg row-major faster than 
+  the CPU time for 90-deg row-major.
+- In col-major mapping for the 90-deg rotation, it is slow to access memory 
+  for reading pixels, and fast to access memory for writing pixels, whereas 
+  in the col-major mapping for the 180-deg rotation, it is both slow to read 
+  and write pixels. Therefore, 90-deg col-major has better spatial locality 
+  than 180-deg col-major, making the CPU time for 90-deg col-major faster 
+  than the CPU time for 180-deg col-major.
+- Block-major mapping for 90-deg and 180-deg is similar in terms of CPU time 
+  because the blocksize is the same, so both rotations will have similar hit 
+  rates and miss rates.
+
